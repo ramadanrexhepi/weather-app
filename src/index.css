@@ -1,0 +1,10 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global body styles */
+body {
+  @apply bg-gradient-to-br from-sky-100 to-blue-200 text-gray-900 dark:from-gray-900 dark:to-gray-800 dark:text-gray-100;
+  font-family: 'Inter', sans-serif;
+}
