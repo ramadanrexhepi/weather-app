@@ -1,69 +1,112 @@
-# React + TypeScript + Vite
+# WeatherApp — Modern Weather Forecast & News Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub Repo Stars](https://img.shields.io/github/stars/your-username/weather-app?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/your-username/weather-app?style=social)
+![License](https://img.shields.io/github/license/your-username/weather-app)
+![Netlify Status](https://img.shields.io/netlify/your-site-id?label=Netlify%20Status)
 
-Currently, two official plugins are available:
+> A state-of-the-art weather app built with React + TypeScript + Tailwind CSS.  
+> Featuring real-time forecasts, interactive weather maps, smart suggestions, climate news, and more!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Features
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✅ Auto-location detection with NYC fallback  
+✅ Search any city and save to favorites  
+✅ Hourly and 5-day forecast with OpenWeatherMap  
+✅ Recharts-powered temperature and humidity graph  
+✅ Leaflet-powered interactive weather map  
+✅ AI-powered Smart Suggestions (clothing, umbrella, sunscreen)  
+✅ Live weather-related news via NewsAPI  
+✅ Responsive UI + Dark/Light theme toggle  
+✅ Scrollable forecast cards and animated UI  
+✅ Progressive Web App (PWA) ready (optional)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+| Layer       | Tech                                               |
+|-------------|----------------------------------------------------|
+| UI          | React 18, TypeScript, Tailwind CSS, Framer Motion |
+| Charts      | Recharts                                           |
+| Maps        | Leaflet                                            |
+| State Mgmt  | React Query, Zustand                               |
+| APIs        | OpenWeatherMap API, NewsAPI                        |
+| Routing     | React Router DOM                                   |
+| Icons       | Lucide React                                       |
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Folder Structure
+
+weather-app/
+├── public/ # Static assets
+├── src/
+│ ├── api/ # Custom API hooks (weather, news)
+│ ├── components/ # Reusable components (maps, charts, toggles)
+│ ├── hooks/ # Favorites, etc.
+│ ├── layouts/ # App layout
+│ ├── pages/ # Home, Forecast, News pages
+│ ├── App.tsx # App routes
+│ ├── main.tsx # Entry point
+│ └── index.css # Tailwind and custom styles
+├── .env # API keys (excluded from git)
+├── vite.config.ts
+├── package.json
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🧪 Local Setup
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/ramadanrexhepi/weather-app.git
+cd weather-app
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Create .env File
+env
+Copy
+Edit
+VITE_WEATHER_API_KEY=your_openweathermap_api_key
+VITE_NEWS_API_KEY=your_newsapi_key
+Don’t have an API key?
+
+Get OpenWeather: https://openweathermap.org/api
+
+Get NewsAPI: https://newsapi.org/
+
+4. Run the App
+bash
+Copy
+Edit
+npm run dev
+App will be running at: http://localhost:5173
+
+ Future Enhancements
+ Multi-language support
+
+ Real-time weather alerts & push notifications
+
+ Weekly email reports
+
+ User accounts to save favorite cities
+
+ Animated weather backgrounds
+
+## License
+This project is licensed under the MIT License.
+
+
