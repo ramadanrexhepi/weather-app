@@ -1,9 +1,6 @@
 # WeatherApp — Modern Weather Forecast & News Dashboard
 
-![GitHub Repo Stars](https://img.shields.io/github/stars/your-username/weather-app?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/your-username/weather-app?style=social)
-![License](https://img.shields.io/github/license/your-username/weather-app)
-![Netlify Status](https://img.shields.io/netlify/your-site-id?label=Netlify%20Status)
+![GitHub Repo Stars](https://img.shields.io/github/stars/ramadanrexhepi/weather-app?style=social))
 
 > A state-of-the-art weather app built with React + TypeScript + Tailwind CSS.  
 > Featuring real-time forecasts, interactive weather maps, smart suggestions, climate news, and more!
