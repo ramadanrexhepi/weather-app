@@ -53,10 +53,6 @@ weather-app/
 ├── package.json
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🧪 Local Setup
