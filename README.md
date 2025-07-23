@@ -8,7 +8,7 @@
 
 ## Features
 
-✅ Auto-location detection with NYC fallback  
+✅ Auto-location detection
 ✅ Search any city and save to favorites  
 ✅ Hourly and 5-day forecast with OpenWeatherMap  
 ✅ Recharts-powered temperature and humidity graph  
@@ -16,11 +16,27 @@
 ✅ AI-powered Smart Suggestions (clothing, umbrella, sunscreen)  
 ✅ Live weather-related news via NewsAPI  
 ✅ Responsive UI + Dark/Light theme toggle  
-✅ Scrollable forecast cards and animated UI  
-✅ Progressive Web App (PWA) ready (optional)
+
+
 
 ---
+## Upcoming Updates
 
+Here are the planned enhancements for future versions of the Weather App:
+
+- Multi-language support (English, Albanian, Macedonian)
+- PWA installability for mobile access
+- Air Quality Index and UV Index integration
+- Sunrise & Sunset display with visuals
+- Voice assistant for querying weather via speech
+- Push notifications for severe weather alerts
+- Animated live weather backgrounds
+- Extended analytics for past and future weather trends
+- Custom location pinning on map for weather insights
+- Improved loading states and error handling UX
+
+
+---
 ## Tech Stack
 
 | Layer       | Tech                                               |
