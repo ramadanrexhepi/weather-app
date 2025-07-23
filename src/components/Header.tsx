@@ -13,14 +13,14 @@ function Header() {
 
   return (
     <header className="bg-white dark:bg-gray-800 shadow-md p-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold text-blue-600 dark:text-blue-300">WeatherApp</h1>
+      <h1 className="text-xl font-bold text-blue-600 dark:text-blue-300">SkyWatcher</h1>
       <nav className="flex gap-4 text-sm font-medium text-gray-800 dark:text-gray-200">
         <Link to="/" className={navLinkClass("/")}>
           <Sun size={18} /> Home
         </Link>
-        <Link to="/forecast" className={navLinkClass("/forecast")}>
+       {/* <Link to="/forecast" className={navLinkClass("/forecast")}>
           <CalendarDays size={18} /> Forecast
-        </Link>
+        </Link> */}
         <Link to="/news" className={navLinkClass("/news")}>
           <Newspaper size={18} /> News
         </Link>

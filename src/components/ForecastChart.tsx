@@ -13,7 +13,7 @@ const ForecastChart = ({ data }: Props) => {
 
   return (
     <div className="max-w-2xl mx-auto mt-8 bg-white dark:bg-gray-800 p-4 rounded-xl shadow">
-      <h3 className="text-xl font-semibold mb-4">📊 Temperature & Humidity (Next 24h)</h3>
+      <h3 className="text-xl font-semibold mb-4">Temperature & Humidity (Next 24h)</h3>
       <ResponsiveContainer width="100%" height={300}>
         <LineChart data={chartData}>
           <CartesianGrid strokeDasharray="3 3" />

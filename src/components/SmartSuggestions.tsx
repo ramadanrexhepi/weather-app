@@ -26,7 +26,7 @@ const SmartSuggestions = ({ weather }: Props) => {
 
   return (
     <div className="max-w-2xl mx-auto bg-yellow-100 dark:bg-yellow-200 text-black rounded-xl shadow-md p-4 mt-6">
-      <h3 className="text-lg font-bold mb-2">🤖 Smart Suggestions</h3>
+      <h3 className="text-lg font-bold mb-2"> Suggestions</h3>
       <ul className="list-disc ml-5 space-y-1 text-sm">
         {suggestions.map((tip, idx) => (
           <li key={idx}>{tip}</li>

@@ -61,7 +61,7 @@ function Home() {
         <>
           {/* Hourly Forecast */}
           <div className="max-w-2xl mx-auto mt-4">
-            <h3 className="text-xl font-semibold mb-2">🕓 Hourly Preview (Next 24h)</h3>
+            <h3 className="text-xl font-semibold mb-2">Hourly Preview (Next 24h)</h3>
             <div className="flex space-x-4 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-transparent">
               {data.list.slice(0, 8).map((item: any, idx: number) => (
                 <div
