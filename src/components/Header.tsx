@@ -1,6 +1,6 @@
 // src/components/Header.tsx
 import { Link, useLocation } from "react-router-dom";
-import { Sun, CalendarDays, Newspaper } from "lucide-react";
+import { Sun, Newspaper } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 function Header() {
